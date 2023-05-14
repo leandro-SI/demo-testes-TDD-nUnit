@@ -35,6 +35,17 @@ namespace Calculadora.Tests
 
                 Assert.That(resultado, Is.EqualTo(15));
             }
+
+            /* Teste Classe Dividir 2 Números */
+            [Test]
+            public void DeveDividirDoidNumeros()
+            {
+                var sut = new CalculadoraSimples();
+
+                var resultado = sut.Dividir(6, 2);
+
+                Assert.That(resultado, Is.EqualTo(3));
+            }
         }
     }
 }

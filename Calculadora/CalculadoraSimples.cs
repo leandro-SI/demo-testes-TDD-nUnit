@@ -20,5 +20,11 @@ namespace Calculadora
             //Para fins de demo (bug) => return num1 * num2
             return num1 * num2;
         }
+
+        // Método para dividir 2 números
+        public double Dividir(int num1, int num2)
+        {
+            return num1 / num2;
+        }
     }
 }
